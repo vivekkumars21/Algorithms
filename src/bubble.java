@@ -13,10 +13,18 @@ public class bubble {
 					arr[j + 1] = temp;
 
 
+
+
 				}
+
 
 			}
 
+
+		}
+
+		for(int num : arr){
+			System.out.print(num + " ");
 		}
 
 
