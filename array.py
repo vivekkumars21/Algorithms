@@ -1,7 +1,9 @@
-import array
+import array as arr
 
-var = array.array('i',[1,2,3,4,5,6])
+var = arr.array('i',[1,2,3,4,5,6])
 
 
 for i in range(0,6):
     print(var[i], end=" ")
+
+print(var)
