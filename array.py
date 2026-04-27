@@ -8,6 +8,8 @@ var.insert(2,10)
 var[3] = 100
 
 copyArray = array(var.typecode, (x for x in var))  #first loop took element put in x then x from starting is storing all elements in list
+multipleArray = array(copyArray.typecode, (x*3 for x in copyArray)) 
 
-for x in copyArray:
+for x in multipleArray:
     print(x)
+
