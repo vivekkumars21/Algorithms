@@ -2,8 +2,11 @@ from array import *
 
 var = array('i',[1,2,3,4,5,6])
 
+for i in range(0,len(var)):
+    print(var[i])
 
-for i in range(0,6):
-    print(var[i], end=" ")
+print('\n')
 
-print(var)
+var.reverse()
+for x in var:
+    print(x)
