@@ -1,6 +1,6 @@
-import array as arr
+from array import *
 
-var = arr.array('i',[1,2,3,4,5,6])
+var = array('i',[1,2,3,4,5,6])
 
 
 for i in range(0,6):
